@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delete Account | Anaesthesia Checklist</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --danger: #ef4444;
+            --danger-hover: #dc2626;
+            --bg: #fdf2f2; /* Subtle red bg for caution */
+            --white: #ffffff;
+            --text: #1e293b;
+            --text-muted: #64748b;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--bg);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            margin: 0;
+            padding: 1.5rem;
+        }
+
+        .card {
+            background: var(--white);
+            max-width: 500px;
+            width: 100%;
+            padding: 3rem;
+            border-radius: 1.5rem;
+            box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+            text-align: center;
+        }
+
+        .icon-box {
+            background: #ffe4e6;
+            width: 64px;
+            height: 64px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 1.5rem;
+            color: var(--danger);
+        }
+
+        h1 {
+            font-size: 1.75rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+            color: var(--text);
+        }
+
+        p {
+            color: var(--text-muted);
+            margin-bottom: 2rem;
+            font-size: 1rem;
+            line-height: 1.5;
+        }
+
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            background-color: var(--danger);
+            color: white;
+            text-decoration: none;
+            padding: 1rem 2rem;
+            border-radius: 0.75rem;
+            font-weight: 600;
+            transition: all 0.2s;
+            width: 100%;
+            box-shadow: 0 4px 6px -1px rgba(239, 68, 68, 0.3);
+        }
+
+        .btn:hover {
+            background-color: var(--danger-hover);
+            transform: translateY(-1px);
+            box-shadow: 0 10px 15px -3px rgba(239, 68, 68, 0.4);
+        }
+
+        .warning-text {
+            margin-top: 1.5rem;
+            font-size: 0.85rem;
+            color: #991b1b;
+            background: #fef2f2;
+            padding: 0.75rem;
+            border-radius: 0.5rem;
+        }
+
+        .back-link {
+            display: inline-block;
+            margin-top: 2rem;
+            color: var(--text-muted);
+            text-decoration: none;
+            font-size: 0.9rem;
+        }
+
+        .back-link:hover {
+            color: var(--text);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <div class="icon-box">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 6h18"></path><path d="M19 6v14c0 1-1 2-2 2H7c-1 0-2-1-2-2V6"></path><path d="M8 6V4c0-1 1-2 2-2h4c1 0 2 1 2 2v2"></path><line x1="10" y1="11" x2="10" y2="17"></line><line x1="14" y1="11" x2="14" y2="17"></line></svg>
+        </div>
+        <h1>Delete Account</h1>
+        <p>To comply with data safety guidelines, you can request the complete deletion of your Anaesthesia Checklist account and all associated data.</p>
+        
+        <a href="mailto:support@bioelectrodeai.com?subject=Account%20Deletion%20Request&body=Hello%20Support%20Team,%0D%0A%0D%0AI%20would%20like%20to%20request%20the%20permanent%20deletion%20of%20my%20account%20and%20all%20associated%20data.%0D%0A%0D%0AMy%20registered%20email%20address%20is:%20[Enter Your Email]%0D%0A%0D%0AThank%20you." class="btn">
+            Request Data Deletion
+        </a>
+
+        <div class="warning-text">
+            <strong>Warning:</strong> This action is irreversible. All your logs, profile data, and history will be permanently erased.
+        </div>
+
+        <a href="privacypolicy.html" class="back-link">Read our Privacy Policy</a>
+    </div>
+
+</body>
+</html>
