@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy | Anaesthesia Checklist</title>
+    <meta name="description" content="Privacy Policy for Anaesthesia Checklist - Learn how we protect your data.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #0d9488; /* Professional Teal */
+            --primary-light: #f0fdfa;
+            --text-main: #1e293b;
+            --text-muted: #64748b;
+            --bg-body: #f8fafc;
+            --bg-card: #ffffff;
+            --border: #e2e8f0;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--bg-body);
+            color: var(--text-main);
+            line-height: 1.6;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        .header {
+            background: white;
+            border-bottom: 1px solid var(--border);
+            padding: 1.5rem 0;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 0 1.5rem;
+        }
+
+        .header-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-weight: 700;
+            font-size: 1.25rem;
+            color: var(--primary);
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .main-content {
+            padding: 3rem 0;
+            display: grid;
+            grid-template-columns: 250px 1fr;
+            gap: 3rem;
+        }
+
+        @media (max-width: 768px) {
+            .main-content {
+                grid-template-columns: 1fr;
+            }
+            .sidebar {
+                display: none;
+            }
+        }
+
+        .sidebar {
+            position: sticky;
+            top: 6rem;
+            height: fit-content;
+        }
+
+        .sidebar ul {
+            list-style: none;
+        }
+
+        .sidebar li {
+            margin-bottom: 0.75rem;
+        }
+
+        .sidebar a {
+            color: var(--text-muted);
+            text-decoration: none;
+            font-size: 0.9rem;
+            font-weight: 500;
+            transition: color 0.2s;
+        }
+
+        .sidebar a:hover {
+            color: var(--primary);
+        }
+
+        .policy-card {
+            background: var(--bg-card);
+            padding: 2.5rem;
+            border-radius: 1rem;
+            box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+            border: 1px solid var(--border);
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            font-weight: 800;
+            margin-bottom: 0.5rem;
+            letter-spacing: -0.025em;
+        }
+
+        .effective-date {
+            color: var(--text-muted);
+            font-size: 0.95rem;
+            margin-bottom: 2rem;
+        }
+
+        h2 {
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-top: 2.5rem;
+            margin-bottom: 1rem;
+            color: var(--primary);
+            scroll-margin-top: 7rem;
+        }
+
+        p {
+            margin-bottom: 1.25rem;
+            color: #475569;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 4rem 0;
+            color: var(--text-muted);
+            font-size: 0.875rem;
+        }
+
+        .highlight-box {
+            background: var(--primary-light);
+            border-left: 4px solid var(--primary);
+            padding: 1.25rem;
+            border-radius: 0.5rem;
+            margin: 1.5rem 0;
+        }
+    </style>
+</head>
+<body>
+
+    <header class="header">
+        <div class="container header-content">
+            <a href="#" class="logo">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+                Anaesthesia Checklist
+            </a>
+        </div>
+    </header>
+
+    <div class="container">
+        <main class="main-content">
+            <aside class="sidebar">
+                <ul>
+                    <li><a href="#intro">Introduction</a></li>
+                    <li><a href="#collection">1. Data Collection</a></li>
+                    <li><a href="#usage">2. Usage</a></li>
+                    <li><a href="#retention">3. Retention</a></li>
+                    <li><a href="#rights">4. Your Rights</a></li>
+                    <li><a href="#contact">5. Contact Us</a></li>
+                </ul>
+            </aside>
+
+            <article class="policy-card">
+                <h1 id="intro">Privacy Policy</h1>
+                <p class="effective-date">Effective Date: March 26, 2026</p>
+
+                <p>Welcome to <strong>Anaesthesia Checklist</strong>. We are committed to protecting your personal information and your right to privacy. If you have any questions or concerns about this privacy notice, or our practices with regards to your personal information, please contact us.</p>
+
+                <div class="highlight-box">
+                    This policy outlines how we handle your data to ensure the safest experience for medical professionals.
+                </div>
+
+                <h2 id="collection">1. Information We Collect</h2>
+                <p>We collect personal information that you voluntarily provide to us when you register on the App, express an interest in obtaining information about us or our products and Services, when you participate in activities on the App, or otherwise when you contact us.</p>
+                <p>This may include your name, email address, password, hospital affiliation, and data related to anaesthesia protocols analyzed by our app.</p>
+
+                <h2 id="usage">2. How We Use Your Information</h2>
+                <p>We use personal information collected via our App for a variety of business purposes described below. We process your personal information for these purposes in reliance on our legitimate business interests, in order to enter into or perform a contract with you, with your consent, and/or for compliance with our legal obligations.</p>
+                <p>We use the information we collect or receive to facilitate account creation and logon process, and to provide our core checklist and monitoring services.</p>
+
+                <h2 id="retention">3. Data Retention</h2>
+                <p>We will only keep your personal information for as long as it is necessary for the purposes set out in this privacy notice, unless a longer retention period is required or permitted by law.</p>
+
+                <h2 id="rights">4. Your Privacy Rights</h2>
+                <p>Depending on your location, you may have certain rights regarding your personal information, such as the right to request access, correction, or deletion of your data.</p>
+                <p>You can initiate an account deletion request through the settings menu in our application or via our dedicated <strong>Delete Account</strong> page.</p>
+
+                <h2 id="contact">5. Contact Us</h2>
+                <p>If you have questions or comments about this notice, you may email us at:</p>
+                <p><strong>Email:</strong> <a href="mailto:support@bioelectrodeai.com" style="color: var(--primary); text-decoration: none;">support@bioelectrodeai.com</a></p>
+            </article>
+        </main>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            &copy; 2026 Anaesthesia Checklist. All rights reserved.
+        </div>
+    </footer>
+
+</body>
+</html>
